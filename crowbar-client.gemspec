@@ -65,7 +65,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "thor", ">= 0.19.1"
   s.add_runtime_dependency "activesupport", "< 5.0.0", ">= 3.0.0"
 
-  s.add_runtime_dependency "rest-client", "2.0.0"
+  s.add_runtime_dependency "rest-client", "~>2.0"
   s.add_runtime_dependency "net-http-digest_auth", "~> 1.4"
   s.add_runtime_dependency "inifile", ">= 3.0.0"
   s.add_runtime_dependency "terminal-table", ">= 1.4.5"
